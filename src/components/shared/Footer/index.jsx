@@ -8,10 +8,10 @@ export default function Footer() {
       <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Home</a></li>
       <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Features</a></li>
       <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">About</a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">FAQS</a></li>
+      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">About Us</a></li>
     </ul>
-    <p className="text-center text-body-secondary">&copy; 2025 NFA -  Ilham Maulana</p>
+    <p className="text-center text-body-secondary">&copy; 2025 NFA -  Mr.Ruly Setiaji</p>
   </footer>
 </div>
         </>

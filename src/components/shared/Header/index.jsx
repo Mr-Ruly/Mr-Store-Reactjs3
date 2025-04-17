@@ -5,7 +5,7 @@ export default function Header() {
           <a href="/" className="d-inline-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
           <i className="fa-solid fa-book fa-2xl" style={{color:"#74C0FC"}}>
           </i>
-          <span className="ms-2 fs-4">iam_store</span>
+          <span className="ms-2 fs-4">Mr-Store</span>
           </a>
           
           <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">

@@ -8,7 +8,7 @@ export default function Contact() {
         Contact Me 📬
       </h1>
       <p className="lead">
-        Punya pertanyaan, kritik, saran, atau cuma mau say hi? Kirim aja pesannya lewat form ini. Siapa tau kita bisa ngopi bareng ☕
+      Apakah Anda memiliki masukan atau saran untuk pengembangan website saya? ,Silahkan kirim pesan ke saya  
       </p>
       <form>
         <div className="mb-3">
@@ -30,7 +30,7 @@ export default function Contact() {
       <div className="border border-success rounded-4 shadow-lg bg-light" style={{ padding: '10px' }}>
         <img
           className="rounded-3"
-          src="https://picsum.photos/980/700?grayscale"
+          src="https://i.pinimg.com/474x/fe/ac/02/feac02a10c521b276e70c1a24e683837.jpg"
           alt="Contact Illustration"
           style={{ display: 'block', width: '100%', height: 'auto' }}
         />
