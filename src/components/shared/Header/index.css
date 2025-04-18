@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink; /* biru laut gelap */
+    padding: 15px 30px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1 rem;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #f5f5f5; /* whitesmoke */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-links a {
+      margin: 10px 0;
+    }
+    .login-link a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      margin-left: 20px;
+      transition: color 0.3s ease;
+    }
+    
+    .login-link a:hover {
+      color: #f5f5f5;
+    }
+    
+    /* Responsive fix for mobile view */
+    @media (max-width: 768px) {
+      .login-link {
+        margin-top: 10px;
+        width: 100%;
+      }
+    }    
+  }
+  
