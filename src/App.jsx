@@ -7,6 +7,12 @@ import Team from "./components/shared/Team";
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
+// ✅ Import halaman baru
+import Home from "./Book/Home";
+import Book from "./Book/book";
+
+
 function App() {
   return (
     <Router>
@@ -14,7 +20,7 @@ function App() {
         <Header />
 
         <Routes>
-          {/* ✅ Home: Semua komponen tampil */}
+          {/* Halaman utama: Hero, Produk, Team, Contact */}
           <Route
             path="/"
             element={
@@ -27,13 +33,15 @@ function App() {
             }
           />
 
-          {/* 🔹 Halaman khusus Team */}
-          <Route path="/product" element={<Productlist />} />
-          
-          {/* 🔹 Halaman khusus Team */}
-          <Route path="/team" element={<Team />} />
+          {/* ✅ Halaman Home Buku */}
+          <Route path="/home" element={<Home />} />
 
-          {/* 🔹 Halaman khusus Contact */}
+          {/* ✅ Halaman Book */}
+          <Route path="/book" element={<Book />} />
+
+          {/* Halaman-halaman lain */}
+          <Route path="/product" element={<Productlist />} />
+          <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
 

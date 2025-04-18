@@ -17,6 +17,7 @@ const Header = () => {
         <Link to="/Product">Product</Link>
         <Link to="/Team">Team</Link>
         <Link to="/Contact">Contact</Link>
+        <Link to="/book">Book</Link>
       </nav>
 
       {/* Tambahkan ini untuk Login/Register */}
